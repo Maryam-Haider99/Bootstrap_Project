@@ -148,3 +148,13 @@ header.masthead  .subheading {
   font-size: 25px;
   margin-top: 0%;
 }
+
+footer{
+  padding: 50px 0 65px;
+}
+
+footer .copyright {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: center;
+}
