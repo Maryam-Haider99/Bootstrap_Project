@@ -17,8 +17,16 @@
     <!-- Logo for footer bootstrap-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
-
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script> 
+      $(document).ready(function(){
+        $("button").click(function(){
+          var div = $("div");  
+          div.animate({left: '100px'}, "slow");
+          div.animate({fontSize: '3em'}, "slow");
+        });
+      });
+    </script>
 
 </head>
 <body>
@@ -60,9 +68,11 @@
           <div class="site-heading">
             <h1>Cats Blog</h1>
             <p class="subheading"><b>In this website we will talk about how to protect our homeless Cats</b></p>
+      
         </div>
+      
       </div>
-    </div>       
+    </div>     
   </header>
 
 
